@@ -1,26 +1,68 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+# - #fffdc0
+# - #251605
+# - #FF9FB2
+# - #6A5D7B
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #fffdc0;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
-
-
+header, footer {
+    h1 {
+        font-size: 3em;
+        font-family: "Roboto", sans-serif;
+        color: #251605;
+    }
+    h2 {
+        font-size: 2em;
+        font-weight: 550;
+        font-family: "Roboto", sans-serif;
+        color: #FF9FB2;
+    }
+    p {
+        font-size: 20px;
+        font-family: "Slabo 27px", serif;
+        color: #6A5D7B;
+    }
+}
 
 /* Work Experience
 ------------------------------------*/
+.WorkExp {
+    h2 {
+        font-size: 2em;
+        font-weight: 550;
+        font-family: "Roboto", sans-serif;
+        color: #FF9FB2;
+    }
+    h3, p, ul {
+        font-size: 20px;
+        font-family: "Slabo 27px", serif;
+        color: #6A5D7B;
+    }
+}
 
 
 
 /* Education
 ------------------------------------*/
+.Edu {
+    h2 {
+        font-size: 2em;
+        font-weight: 550;
+        font-family: "Roboto", sans-serif;
+        color: #FF9FB2;
+    }
+    h3, p {
+        font-size: 20px;
+        font-family: "Slabo 27px", serif;
+        color: #6A5D7B;
+    }
+}
