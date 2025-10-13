@@ -8,13 +8,14 @@
 /* Global styles 
 ------------------------------------*/
 body {
-    background: #fffdc0;
+    background: #fffba9;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
+    background-color: #dbf2ff;
     h1 {
         font-size: 3em;
         font-family: "Roboto", sans-serif;
@@ -31,11 +32,18 @@ header, footer {
         font-family: "Slabo 27px", serif;
         color: #6A5D7B;
     }
+    .Email {
+        font-size: 20px;
+    }
+    .Pic {
+        width: 250px;
+    }
 }
 
 /* Work Experience
 ------------------------------------*/
 .WorkExp {
+    background-color: #dbf2ff;
     h2 {
         font-size: 2em;
         font-weight: 550;
@@ -54,6 +62,7 @@ header, footer {
 /* Education
 ------------------------------------*/
 .Edu {
+    background-color: #dbf2ff;
     h2 {
         font-size: 2em;
         font-weight: 550;
