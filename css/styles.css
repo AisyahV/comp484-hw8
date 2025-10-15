@@ -8,55 +8,94 @@
 /* Global styles 
 ------------------------------------*/
 body {
-    background: #fffba9;
-}
-.content-wrap{
-    max-width: 1300px;
-    margin: 0 auto;
+    margin: 0;
 }
 
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column-narrow {
+  width: 30%; 
+  float: left; 
+  padding-right: 3%; 
+  min-height: 175px;
+} 
+
+.column-wide {
+  width: 70%; 
+  float: left; 
+  min-height: 225px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    color: #251605;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 550;
+    font-family: "Roboto", sans-serif;
+    color: #FF9FB2;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Slabo 27px", serif;
+    color: #6A5D7B;
+}
+
+.contact-info a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.profile-img {
+    /*
+    width: 300px;
+    height: 300px;
+    float: left;
+    */
+    border-radius:50%;
+}
+
+h3,
+p {
+    font-size: 20px;
+    font-family: "Slabo 27px", serif;
+    color: #6A5D7B;
+}
 
 /* Header & Footer 
 ------------------------------------*/
-header, footer {
-    h1 {
-        font-size: 3em;
-        font-family: "Roboto", sans-serif;
-        color: #251605;
+header {
+    background-color: #dbf2ff;
+    h1, h2 {
+        margin: 0;
     }
-    h2 {
-        font-size: 2em;
-        font-weight: 550;
-        font-family: "Roboto", sans-serif;
-        color: #FF9FB2;
-    }
-    p {
-        font-size: 20px;
-        font-family: "Slabo 27px", serif;
-        color: #6A5D7B;
-    }
-    .Email {
-        font-size: 20px;
-    }
-    .Pic {
-        width: 250px;
-    }
+}
+footer {
+    background-color: #dbf2ff;
+    text-align: center;
 }
 
 /* Work Experience
 ------------------------------------*/
 .WorkExp {
-    h2 {
-        font-size: 2em;
-        font-weight: 550;
-        font-family: "Roboto", sans-serif;
-        color: #FF9FB2;
-    }
-    h3, p, ul {
-        font-size: 20px;
-        font-family: "Slabo 27px", serif;
-        color: #6A5D7B;
-    }
+    background-color: #fffba9;
 }
 
 
@@ -64,15 +103,5 @@ header, footer {
 /* Education
 ------------------------------------*/
 .Edu {
-    h2 {
-        font-size: 2em;
-        font-weight: 550;
-        font-family: "Roboto", sans-serif;
-        color: #FF9FB2;
-    }
-    h3, p {
-        font-size: 20px;
-        font-family: "Slabo 27px", serif;
-        color: #6A5D7B;
-    }
+    background-color: #fffba9;
 }
