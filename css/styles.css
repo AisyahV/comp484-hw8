@@ -10,12 +10,15 @@
 body {
     background: #fffba9;
 }
+.content-wrap{
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
-    background-color: #dbf2ff;
     h1 {
         font-size: 3em;
         font-family: "Roboto", sans-serif;
@@ -43,7 +46,6 @@ header, footer {
 /* Work Experience
 ------------------------------------*/
 .WorkExp {
-    background-color: #dbf2ff;
     h2 {
         font-size: 2em;
         font-weight: 550;
@@ -62,7 +64,6 @@ header, footer {
 /* Education
 ------------------------------------*/
 .Edu {
-    background-color: #dbf2ff;
     h2 {
         font-size: 2em;
         font-weight: 550;
