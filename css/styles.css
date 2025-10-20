@@ -79,6 +79,37 @@ p {
     color: #6A5D7B;
 }
 
+/* Navigation Bar
+------------------------------------*/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ddc2ff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: rgb(53, 39, 35);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: #ececec;
+}
+
+/* Work Experience */
+.work-experience {
+    background-color: #F9F6E6;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header {
@@ -90,6 +121,16 @@ header {
 footer {
     background-color: #dbf2ff;
     text-align: center;
+}
+footer a {
+    align-content: center;
+    margin: 5px;
+    transition: color 0.3s ease;
+    color: #7b91d3;
+}
+
+footer a:hover {
+    color: #b8cfe9;
 }
 
 /* Work Experience

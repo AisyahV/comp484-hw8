@@ -10,11 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Slabo+27px&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+
+    <nav class="navbar">
+    <a href="#summary">About</a>
+    <a href="#workexperience">Work Experience</a>
+    <a href="#education">Education</a>
+    <a href="images/dwight_resume.png" download>Download PDF</a>
+    </nav>
+
     <!-- // Intro -->
     <header>
+        <section class="summary" id="summary">
         <div class="content-wrap">
         <img src="images\dwight.jpeg" alt="Face" class="profile-img column-narrow">
         <div class="column-wide">
@@ -27,11 +39,12 @@
             where I can apply my skills to meaningful projects in the tech field.</p>
         </div>
         </div>
+        </section>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section>
+        <section class="workexperience" id="workexperience">
             <div class="WorkExp">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
@@ -65,7 +78,7 @@
 
 
         <!-- // Education -->
-        <section>
+        <section class="education" id="education">
             <div class="Edu">
             <div class="content-wrap">
                 <h2>Education</h2>
@@ -89,7 +102,7 @@
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <div class="contact-info">
-            <a href="mailto:aisyah.vizcarra.615@my.csun.edu">aisyah.vizcarra.615@my.csun.edu</a>
+            <a href="mailto:aisyah.vizcarra.615@my.csun.edu"><i class="fa-solid fa-envelope"></i></a>
             <!-- <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a> -->
             <!-- <a href="#" target="_blank">Twitter</a> -->
             <!-- <a href="#" target="_blank">LinkedIn</a> -->
