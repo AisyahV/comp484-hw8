@@ -106,8 +106,10 @@ p {
 }
 
 /* Work Experience */
-.work-experience {
+.workexperience {
     background-color: #F9F6E6;
+    background: linear-gradient(rgba(225, 234, 205, 0.5), rgba(225, 234, 205, 0.5)), url("https://www.lamenojewelry.com/cdn/shop/collections/7W1A7832_b_3024x.jpg?v=1701673942") fixed no-repeat center center;
+    background-size: cover;
 }
 
 /* Header & Footer 
